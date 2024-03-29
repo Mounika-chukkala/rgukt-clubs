@@ -1,0 +1,44 @@
+.image{
+      width:6vw;
+      height:9vh;
+}
+.navbar-brand{
+      font-weight:bold;
+      color:black;
+      font-size:20px;
+}
+#navbar{
+      background-color:wheat;
+}
+#nav1{
+      color:black;
+      font-weight:bold;
+      font-size:18px;
+}
+#nav2{
+      color:black;
+      font-weight:bold;
+      font-size:18px;
+}
+#nav3{
+      color:black;
+      font-weight:bold;
+      font-size:18px;
+}
+#nav4{
+      color:black;
+      font-weight:bold;
+      font-size:18px;
+}
+#nav1:hover{
+      color:maroon;
+}
+#nav2:hover{
+      color:maroon;
+}
+#nav3:hover{
+      color:maroon;
+}
+#nav4:hover{
+      color:maroon;
+}

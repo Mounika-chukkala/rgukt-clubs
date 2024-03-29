@@ -1,0 +1,13 @@
+*{
+    box-sizing:border-box;
+}
+#mem{
+    display:flex;
+    justify-content:center;
+    margin:10px;
+    color:white;
+}
+#pre >img{
+    border-radius:110px;
+    border:12px solid rgb(123, 98, 192);
+}
