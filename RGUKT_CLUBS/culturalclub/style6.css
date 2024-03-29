@@ -1,0 +1,218 @@
+*{
+    box-sizing:border-box;
+
+   
+}
+body
+{
+    background-image:url(https://png.pngtree.com/background/20210711/original/pngtree-university-club-recruiting-new-poster-picture-image_1081818.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    width:100vw;
+    height:vh;
+    /* background-position: center center; */
+    /* position:relative; */
+    /* margin:0;
+    padding:0;
+    top:0;
+    left:0; */
+    overflow-x:hidden;
+    overflow-y:scroll;
+   
+}
+.overlay{
+    top:0;
+    left:0;
+    right:0;
+    background-color:rgba(0,0,0,0.8);
+    bottom:0;
+    /* position:absolute; */
+    width:100vw;
+    height:vh;
+}
+.main{
+    margin-left:40px;
+    margin-right:40px;
+    margin-top:30px;
+}
+/* .intro{
+    margin-left:5px;
+    margin-right:20px;
+} */
+.row{
+    margin-left:60px;
+}
+p{
+    color:white;
+}
+#nav0{
+    font-weight:bold;
+    color:white;
+    font-size:18px;
+    margin-right:10px;
+}
+#nav1{
+    font-weight:bold;
+    color:white;
+    font-size:18px;
+    margin-right:10px;
+}
+#nav2{
+    font-weight:bold;
+    color:white;
+    font-size:18px;
+    margin-right:10px;
+}
+#nav3{
+    font-weight:bold;
+    color:white;
+    font-size:18px;
+    margin-right:10px;
+}
+#clubname{
+    font-weight:bold;
+    color:white;
+    margin-left:20px;
+}
+
+#navbar{
+    padding:20px;
+}
+.image{
+    float:right;
+    margin-right:10px;
+    margin-left:30px;
+    border-top-left-radius:40px;
+    border-bottom-right-radius:40px;
+    position:relative;
+}
+#nav0:hover{
+    color:white;
+    background-color:pink;
+    border-radius:20px;
+}
+#nav1:hover{
+    color:white;
+    background-color:pink;
+    border-radius:20px;
+}
+#nav2:hover{
+    color:white;
+    background-color:pink;
+    border-radius:20px;
+}
+#nav3:hover{
+    color:white;
+    background-color:pink;
+    border-radius:20px;
+}
+.logoimage{
+    border-radius:30px;
+}
+h2{
+    margin-left:50px;
+    color:white;
+    font-weight: bolder;
+}
+footer {
+        position:relative;
+        bottom: 0;
+        width: 100%;
+        /* background-color: #333; */
+        /* color: #fff; */
+        padding: 20px;
+    }
+      
+#footer-content {
+        max-width: 1200px;
+        /* margin: 0 auto; */
+        display: flex;
+        justify-content: space-between;
+        margin-left:50px;
+      }
+.left, .center, .right {
+     flex: 1;
+    }
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+    #footer-content {
+      flex-direction: column;
+      align-items: center;
+    }
+    .left, .center, .right {
+      flex: none;
+      width: 100%;
+    }
+  }
+
+
+.container2{
+    margin-left:90px;
+    margin-top:40px;
+}
+.pic{
+    border-radius:100%;
+    border:6px solid;
+    border-color:skyblue;
+}
+#one >h2{
+    margin-left:50px;
+    color:brown;
+}
+#one >h3{
+    margin-left:60px;
+    color:white;
+}
+.row{
+    display:flex;
+    justify-content:center;
+}
+
+.text h2{
+    color:white;
+    position:absolute;
+    margin-left:160px;
+    margin-top:255px;
+}
+.text h5{
+    color:white;
+    position:absolute;
+    margin-left:170px;
+    margin-top:300px;
+}
+.text2 h2{
+    color:white;
+    position:absolute;
+    margin-left:450px;
+    margin-top:255px;
+}
+.text2 h5{
+    color:white;
+    position:absolute;
+    margin-left:485px;
+    margin-top:300px;
+}
+
+.text3 h2{
+    color:white;
+    position:absolute;
+    margin-left:820px;
+    margin-top:255px;
+}
+.text3 h5{
+    color:white;
+    position:absolute;
+    margin-left:830px;
+    margin-top:300px;
+}
+
+
+
+
+
+
+
+
+
+
+

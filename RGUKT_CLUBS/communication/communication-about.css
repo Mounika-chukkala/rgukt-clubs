@@ -1,0 +1,116 @@
+*{
+     margin:0;
+     padding: 0;
+}
+body {
+    background-image: url("communicationbackground.jpg");
+    position: relative;
+   width:100vw;
+    overflow-x: hidden;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    /* Adjust the alpha value for the desired level of dimness */
+    position: absolute;
+    top: 0px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.main{
+    padding-bottom: 10vh;
+}
+#work {
+    color: white;
+    font-size: 25px;
+}
+
+#work img {
+    width: 30%;
+}
+
+.data {
+    padding: 10px;
+    margin-right: 20px;
+}
+
+#img-col {
+    width: 80%;
+    margin-top: 80px;
+    border-radius: 20px;
+    ;
+}
+
+#row1 {
+    margin: 10px;
+}
+
+#theory {
+    color: white;
+}
+
+#theory h1 {
+    color: #00cdac;
+    padding-bottom: 10px;
+}
+
+.footer {
+    width: 100vw;
+    background: linear-gradient(to right, rgb(243, 197, 111), rgb(240, 212, 159));
+    position: relative;
+    bottom: 0;
+    height:16vh;
+    display: flex;
+    color: black;
+    font-size: 16px;
+    flex-direction: column;
+   
+    flex-wrap: wrap;
+}
+
+.footer p {
+    margin: 10px;
+    font-weight: bold;
+}
+
+.footer a {
+    color:black;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+#img1,
+#img2,
+#img3 {
+    border-radius: 175px;
+    border: 15px solid rgb(82, 117, 117);
+}
+
+.row1 {
+    color: white;
+}
+
+.value {
+    height: 20vh;
+}
+
+.row1 h1 {
+    padding-top: 10px;
+}
+/* @media screen and (max-width:1400px) and (min-height:600px) {
+*{
+    overflow: scroll;
+} 
+.footer{
+    font-size:16px;
+    height:18vh;
+    display: flex;
+    flex-direction: column;
+}
+} */
